@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO list</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="todo">
+        <div class="container">
+            <article class="todo__content">
+                <h1 class="todo__title">TODO list</h1>
+                <section class="todo-input">
+                    <input type="text" class="todo-input__text" placeholder="Enter your task here">
+                    <input type="date" class="todo-input__date">
+                    <button class="todo-input__button">Add</button>
+                </section>
+                <section class="todo-filters">
+                    <button id="allFilter" class="todo-filters__button">All</button>
+                    <button id="activeFilter" class="todo-filters__button">Active</button>
+                    <button id="completedFilter" class="todo-filters__button">Completed</button>
+                    <button id="tomorrowFilter" class="todo-filters__button">Tomorrow</button>
+                    <button id="weekFilter" class="todo-filters__button">Next week</button>
+                </section>
+                <section class="todo-output">
+                    <ul class="todo-output__list"></ul>
+                </section>
+            </article>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

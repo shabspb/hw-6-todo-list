@@ -1,3 +1,7 @@
+To check out this homework in codepen, please follow the link:
+
+https://codepen.io/shabspb/pen/rNLQBow
+
 # Homework #6 TODO list
 ## Deadline: 11.11
 ## Задание
